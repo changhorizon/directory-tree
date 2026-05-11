@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Exception;
+namespace ChangHorizon\DirectoryTree\Exception;
 
 use RuntimeException;
 

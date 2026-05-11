@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Tests\Builder;
+namespace ChangHorizon\DirectoryTree\Tests\Builder;
 
-use Hizpark\DirectoryTree\Builder\DirectoryTreeBuilder;
-use Hizpark\DirectoryTree\Node\DirectoryNode;
+use ChangHorizon\DirectoryTree\Builder\DirectoryTreeBuilder;
+use ChangHorizon\DirectoryTree\Node\DirectoryNode;
 use PHPUnit\Framework\TestCase;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

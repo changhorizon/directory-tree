@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Builder;
+namespace ChangHorizon\DirectoryTree\Builder;
 
 use FilesystemIterator;
-use Hizpark\DirectoryTree\Exception\DirectoryTreeException;
-use Hizpark\DirectoryTree\Memory\DirectoryTreeMemory;
-use Hizpark\DirectoryTree\Memory\TreeMemoryInterface;
-use Hizpark\DirectoryTree\Node\DirectoryNode;
-use Hizpark\DirectoryTree\Node\NodeInterface;
+use ChangHorizon\DirectoryTree\Exception\DirectoryTreeException;
+use ChangHorizon\DirectoryTree\Memory\DirectoryTreeMemory;
+use ChangHorizon\DirectoryTree\Memory\TreeMemoryInterface;
+use ChangHorizon\DirectoryTree\Node\DirectoryNode;
+use ChangHorizon\DirectoryTree\Node\NodeInterface;
 use SplFileInfo;
 use UnexpectedValueException;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Node;
+namespace ChangHorizon\DirectoryTree\Node;
 
 interface NodeInterface
 {

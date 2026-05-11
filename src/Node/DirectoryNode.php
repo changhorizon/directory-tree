@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Node;
+namespace ChangHorizon\DirectoryTree\Node;
 
-use Hizpark\DirectoryTree\Exception\DirectoryTreeException;
+use ChangHorizon\DirectoryTree\Exception\DirectoryTreeException;
 
 class DirectoryNode implements NodeInterface
 {

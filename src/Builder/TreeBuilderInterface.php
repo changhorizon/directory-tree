@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Builder;
+namespace ChangHorizon\DirectoryTree\Builder;
 
-use Hizpark\DirectoryTree\Memory\TreeMemoryInterface;
-use Hizpark\DirectoryTree\Node\NodeInterface;
+use ChangHorizon\DirectoryTree\Memory\TreeMemoryInterface;
+use ChangHorizon\DirectoryTree\Node\NodeInterface;
 
 interface TreeBuilderInterface
 {

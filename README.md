@@ -2,13 +2,13 @@
 
 > Elegantly transform directory structures into traversable tree objects
 
-![License](https://img.shields.io/github/license/hizpark/directory-tree?style=flat-square)
-![Latest Version](https://img.shields.io/packagist/v/hizpark/directory-tree?style=flat-square)
+![License](https://img.shields.io/github/license/changhorizon/directory-tree?style=flat-square)
+![Latest Version](https://img.shields.io/packagist/v/changhorizon/directory-tree?style=flat-square)
 ![PHP Version](https://img.shields.io/badge/php-8.2--8.4-blue?style=flat-square)
 ![Static Analysis](https://img.shields.io/badge/static_analysis-PHPStan-blue?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-PHPUnit-brightgreen?style=flat-square)
-[![codecov](https://codecov.io/gh/hizpark/directory-tree/branch/main/graph/badge.svg)](https://codecov.io/gh/hizpark/directory-tree)
-![CI](https://github.com/hizpark/directory-tree/actions/workflows/ci.yml/badge.svg?style=flat-square)
+[![codecov](https://codecov.io/gh/changhorizon/directory-tree/branch/main/graph/badge.svg)](https://codecov.io/gh/changhorizon/directory-tree)
+![CI](https://github.com/changhorizon/directory-tree/actions/workflows/ci.yml/badge.svg?style=flat-square)
 
 This library provides object-oriented directory structure mapping and transformation capabilities for PHP applications. It converts physical filesystem hierarchies into traversable tree objects with support for multiple export formats including JSON, XML and visual representations.
 
@@ -22,7 +22,7 @@ This library provides object-oriented directory structure mapping and transforma
 ## 📦 安装
 
 ```bash
-composer require hizpark/directory-tree
+composer require changhorizon/directory-tree
 ```
 
 ## 📂 目录结构

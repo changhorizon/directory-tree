@@ -1,5 +1,5 @@
 {
-    "name": "hizpark/directory-tree",
+    "name": "changhorizon/directory-tree",
     "description": "Elegantly transform directory structures into traversable tree objects",
     "keywords": [],
     "type": "library",
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hizpark\\DirectoryTree\\": "src/"
+            "ChangHorizon\\DirectoryTree\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hizpark\\DirectoryTree\\Tests\\": "tests/"
+            "ChangHorizon\\DirectoryTree\\Tests\\": "tests/"
         }
     },
     "bin": [

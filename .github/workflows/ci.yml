@@ -95,4 +95,4 @@ jobs:
           tag_name: ${{ github.ref_name }}
           body: |
             🎉 Release ${{ github.ref_name }}
-            [📖 README Documentation](https://github.com/hizpark/directory-tree#readme)
+            [📖 README Documentation](https://github.com/changhorizon/directory-tree#readme)

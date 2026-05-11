@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Tests\Node;
+namespace ChangHorizon\DirectoryTree\Tests\Node;
 
-use Hizpark\DirectoryTree\Node\DirectoryNode;
+use ChangHorizon\DirectoryTree\Node\DirectoryNode;
 use PHPUnit\Framework\TestCase;
 
 class DirectoryNodeTest extends TestCase

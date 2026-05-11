@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Memory;
+namespace ChangHorizon\DirectoryTree\Memory;
 
-use Hizpark\DirectoryTree\Node\NodeInterface;
+use ChangHorizon\DirectoryTree\Node\NodeInterface;
 
 interface TreeMemoryInterface
 {

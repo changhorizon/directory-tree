@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Hizpark\DirectoryTree\Transformer;
+namespace ChangHorizon\DirectoryTree\Transformer;
 
-use Hizpark\DirectoryTree\Exception\DirectoryTreeException;
-use Hizpark\DirectoryTree\Memory\TreeMemoryInterface;
-use Hizpark\DirectoryTree\Node\NodeInterface;
+use ChangHorizon\DirectoryTree\Exception\DirectoryTreeException;
+use ChangHorizon\DirectoryTree\Memory\TreeMemoryInterface;
+use ChangHorizon\DirectoryTree\Node\NodeInterface;
 use SimpleXMLElement;
 
 class DirectoryTreeTransformer

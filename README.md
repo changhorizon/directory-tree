@@ -46,12 +46,12 @@ src
     └── DirectoryTreeViewer.php
 ```
 
-## 🚀 使用示例
+## 🚀 用法示例
 
 ### 示例1：基本目录树渲染
 
 ```php
-use Hizpark\DirectoryTree\Viewer\DirectoryTreeViewer;
+use ChangHorizon\DirectoryTree\Viewer\DirectoryTreeViewer;
 
 $viewer = new DirectoryTreeViewer();
 echo $viewer->render('/path/to/directory');
@@ -60,7 +60,7 @@ echo $viewer->render('/path/to/directory');
 ### 示例2：多种格式输出
 
 ```php
-use Hizpark\DirectoryTree\Viewer\DirectoryTreeViewer;
+use ChangHorizon\DirectoryTree\Viewer\DirectoryTreeViewer;
 
 $viewer = new DirectoryTreeViewer();
 
@@ -100,8 +100,8 @@ interface NodeInterface
 ```php
 namespace Hizpark\DirectoryTree\Builder;
 
-use Hizpark\DirectoryTree\Memory\TreeMemoryInterface;
-use Hizpark\DirectoryTree\Node\NodeInterface;
+use ChangHorizon\DirectoryTree\Memory\TreeMemoryInterface;
+use ChangHorizon\DirectoryTree\Node\NodeInterface;
 
 interface TreeBuilderInterface
 {
@@ -116,7 +116,7 @@ interface TreeBuilderInterface
 ```php
 namespace Hizpark\DirectoryTree\Memory;
 
-use Hizpark\DirectoryTree\Node\NodeInterface;
+use ChangHorizon\DirectoryTree\Node\NodeInterface;
 
 interface TreeMemoryInterface
 {

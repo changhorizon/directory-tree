@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace ChangHorizon\DirectoryTree\Tests\Transformer;
 
-use DOMDocument;
 use ChangHorizon\DirectoryTree\Memory\DirectoryTreeMemory;
 use ChangHorizon\DirectoryTree\Node\DirectoryNode;
 use ChangHorizon\DirectoryTree\Transformer\DirectoryTreeTransformer;
+use DOMDocument;
 use PHPUnit\Framework\TestCase;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

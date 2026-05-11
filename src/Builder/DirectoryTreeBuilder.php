@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace ChangHorizon\DirectoryTree\Builder;
 
-use FilesystemIterator;
 use ChangHorizon\DirectoryTree\Exception\DirectoryTreeException;
 use ChangHorizon\DirectoryTree\Memory\DirectoryTreeMemory;
 use ChangHorizon\DirectoryTree\Memory\TreeMemoryInterface;
 use ChangHorizon\DirectoryTree\Node\DirectoryNode;
 use ChangHorizon\DirectoryTree\Node\NodeInterface;
+use FilesystemIterator;
 use SplFileInfo;
 use UnexpectedValueException;
 

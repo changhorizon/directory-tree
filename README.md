@@ -81,7 +81,7 @@ echo $viewer->render('/path/to/directory', DirectoryTreeViewer::FORMAT_TEXT_TREE
 > 定义目录树节点的基本接口
 
 ```php
-namespace Hizpark\DirectoryTree\Node;
+namespace ChangHorizon\DirectoryTree\Node;
 
 interface NodeInterface
 {
@@ -98,7 +98,7 @@ interface NodeInterface
 > 定义构建目录树结构的接口
 
 ```php
-namespace Hizpark\DirectoryTree\Builder;
+namespace ChangHorizon\DirectoryTree\Builder;
 
 use ChangHorizon\DirectoryTree\Memory\TreeMemoryInterface;
 use ChangHorizon\DirectoryTree\Node\NodeInterface;
@@ -114,7 +114,7 @@ interface TreeBuilderInterface
 > 定义目录树内存操作的接口
 
 ```php
-namespace Hizpark\DirectoryTree\Memory;
+namespace ChangHorizon\DirectoryTree\Memory;
 
 use ChangHorizon\DirectoryTree\Node\NodeInterface;
 
@@ -131,7 +131,7 @@ interface TreeMemoryInterface
 
 ### DirectoryNode
 
-> Namespace: `Hizpark\DirectoryTree\Node`
+> Namespace: `ChangHorizon\DirectoryTree\Node`
 
 - 实现 NodeInterface
 - 代表目录树中的单个节点
@@ -140,7 +140,7 @@ interface TreeMemoryInterface
 
 ### DirectoryTreeBuilder
 
-> Namespace: `Hizpark\DirectoryTree\Builder`
+> Namespace: `ChangHorizon\DirectoryTree\Builder`
 
 - 实现 TreeBuilderInterface
 - 使用迭代方式构建目录树
@@ -149,7 +149,7 @@ interface TreeMemoryInterface
 
 ### DirectoryTreeMemory
 
-> Namespace: `Hizpark\DirectoryTree\Memory`
+> Namespace: `ChangHorizon\DirectoryTree\Memory`
 
 - 实现 TreeMemoryInterface
 - 提供树结构查询功能：获取祖先节点，获取兄弟节点，获取后代节点
@@ -157,7 +157,7 @@ interface TreeMemoryInterface
 
 ### DirectoryTreeTransformer
 
-> Namespace: `Hizpark\DirectoryTree\Transformer`
+> Namespace: `ChangHorizon\DirectoryTree\Transformer`
 
 - 目录树结构转换器
 - 支持多种输出格式转换： 数组，JSON，XML，HTML列表，Markdown列表，缩进文本，ASCII树状文本
@@ -166,7 +166,7 @@ interface TreeMemoryInterface
 
 ### DirectoryTreeViewer
 
-> Namespace: `Hizpark\DirectoryTree\Viewer`
+> Namespace: `ChangHorizon\DirectoryTree\Viewer`
 
 - 提供简化的渲染接口
 - 支持多种输出格式：HTML列表，Markdown列表，文本缩进，树状文本
